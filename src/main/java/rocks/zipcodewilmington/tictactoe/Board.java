@@ -81,7 +81,7 @@ public class Board {
         counterO = 0;
         counterX = 0;
         for (int row = 0; row <3; row++) {
-            for (int col = 2; col > 3; col--) {
+            for (int col = 2; col > 0; col--) {
                 if (matrix[row][col] == 'X') {
                     counterX++;
                 } else if (matrix[row][col] == 'O') {
@@ -98,7 +98,7 @@ public class Board {
             }
         }
 
-        tie = true;
+
 
     }
 
